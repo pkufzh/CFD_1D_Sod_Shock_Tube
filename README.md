@@ -1,6 +1,6 @@
 # Numerical Simulation of 1-D Sod Shock Tube
 
-**The MATLAB codes for the realization of the numerical simulation of 1-D Sod Shock Tube **
+**The MATLAB codes for the realization of the numerical simulation of 1-D Sod Shock Tube**
 
 ## Information
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-All the MATLAB codes are saved under the ***Codes*** folder.
+All the *MATLAB* codes are saved under the ***Codes*** folder.
 
 ### Main Program
 
@@ -77,7 +77,7 @@ $$
 
 ***Note:***
 
-- The above MATLAB programs were tested and passed on *MATLAB R2021b*, Windows 64-bit system. 
+- The above *MATLAB* codes were tested and passed on *MATLAB R2021b*, Windows 64-bit system. 
 - For the vector images saved in the ***Paper.pdf*** are large, loading may be slow. Thanks for your patient waiting!!!
 
 ## Reference
