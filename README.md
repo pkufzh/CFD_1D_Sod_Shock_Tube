@@ -6,13 +6,13 @@
 
 ***Author:*** pkufzh (Small Shrimp)
 
-***Course Name:*** Fundamentals of Computational Fluid Dynamics (CFD)
+***Course:*** Fundamentals of Computational Fluid Dynamics (CFD)
 
-***Submit Date:*** 2021/12/28
+***Submit:*** 2021/12/28
 
 ## Description
 
-All the *MATLAB* codes are saved under the ***Codes*** folder.
+All the developed *MATLAB* codes are saved under the ***Codes*** folder.
 
 ### Main Program
 
@@ -35,7 +35,12 @@ All the *MATLAB* codes are saved under the ***Codes*** folder.
   - ***Roe*** Scheme
   
 - <font color = 'blue'>**Diff_Cons_Common.m**</font>
-  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, *i.e.* $ \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-} $
+  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, *i.e.* 
+  
+$$
+\mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-}
+$$
+
   - **Shock Capturing Methods** *(Optional)*
     - **(TVD) *Total Variation Diminishing*** Scheme with **van Leer Limiter**
     - **(NND, *H. X. Zhang*) *Non-oscillatory, Non-free-parameters Dissipative Difference*** Scheme
@@ -45,15 +50,15 @@ All the *MATLAB* codes are saved under the ***Codes*** folder.
     - **2 order** (3 points)
     - **3 order** (4 points with *bias*)
     - **5 order** (6 points with *bias*)
-  - *Note:* All the upwind schemes used in this program had been converted into the conservative form.
+  - *Note:* All the **upwind schemes** used in this program had been converted into the conservative form.
   
 - <font color = 'blue'>**Cal_Minmod.m**</font>
   - **Cal. minmod(a, b)**
   - *Sign Definition*
 
-$$ {'}
+$$
 \operatorname{minmod}(a,b) = \frac{1}{2}\left[\operatorname{sgn}(a) + \operatorname{sgn}(b)\right]\cdot\operatorname{min}\left(\left|a\right|, \left|b\right|\right)
-$$ {'}
+$$
 
 ​		where $ a $, $ b $ is 1-Dimensional array with same length.
 
@@ -107,18 +112,20 @@ $$ {'}
 
 ------
 
-^_^ This is the END of the page / document. Thank you for reading!
+<font size = 2.5>^_^ This is the END of the page / document. Thank you for reading! </font>
 
-*Finished by pkufzh (Small Shrimp) on* **2022/01/20**.
+<font size = 2.5>If you think this project is helpful to you, do not hesitate to light up the 'Star' or 'Fork'!</font>
+
+<font size = 2.5>Developed or Finished by *pkufzh (Small Shrimp)* on 2022/01/20.</font>
 
 **<u>Contact me:</u>**
 
-Github Homepage: https://github.com/pkufzh
+Github Page: https://github.com/pkufzh
 
-Research Gate: https://www.researchgate.net/profile/Zhenghao-Feng
+ResearchGate: https://www.researchgate.net/profile/Zhenghao-Feng
 
 Bilibili Space: https://space.bilibili.com/167343763
 
-*-- Who am I? A happy shrimp from Peking University!*
+<center><font size = 2.5>Who am I? A happy shrimp from Peking University!</font></center>
 
-*-- This project is protected by MIT license. Please obey the open source rules.*
+<center><font size = 2.5>This project is protected by the MIT license. Please obey the open source rules.</font></center>
