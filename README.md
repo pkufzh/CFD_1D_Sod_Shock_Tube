@@ -1,4 +1,11 @@
-[TOC]
+
+- [Numerical Simulation of 1-D Sod Shock Tube](#numerical-simulation-of-1-d-sod-shock-tube)
+  - [Information](#information)
+  - [Description](#description)
+    - [Main Program](#main-program)
+    - [Attached Function Modules](#attached-function-modules)
+    - [Exact Riemann Solution: Referred Functions by Gogol (2021)](#exact-riemann-solution-referred-functions-by-gogol-2021)
+  - [Reference](#reference)
 
 # Numerical Simulation of 1-D Sod Shock Tube
 
@@ -37,7 +44,7 @@ All the developed *MATLAB* codes are saved under the ***Codes*** folder.
   - ***Roe*** Scheme
   
 - <font color = 'blue'>**Diff_Cons_Common.m**</font>
-  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, i.e. $ \mathbf{F}_{j+\frac{1}{2}}=\mathbf{F}_{j+\frac{1}{2}L}^{+}+\mathbf{F}_{j+\frac{1}{2}R}^{-} $
+  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, that is $ \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-} $.
 
   - **Shock Capturing Methods** *(Optional)*
     - **(TVD) *Total Variation Diminishing*** Scheme with **van Leer Limiter**
