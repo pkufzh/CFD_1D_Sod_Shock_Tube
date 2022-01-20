@@ -37,20 +37,23 @@ All the developed *MATLAB* codes are saved under the ***Codes*** folder.
 
 - <font color = 'blue'>**Flux_Vect_Split_Common.m**</font>
   - **Flux Vector Splitting (FVS)** with different methods *(Optional)*
-  - **Steger-Warming (S-W)**
+    - **Steger-Warming (S-W)**
     - **Lax-Friedrichs (L-F)** 
     - **van Leer**
     - **Liou-Steffen (Advection Upstream Splitting Method, AUSM)**
   
 - <font color = 'blue'>**Flux_Diff_Split_Common.m**</font>
-  
   - **Flux Difference Splitting (FDS)** with different methods *(Optional)*
-  - ***Roe*** Scheme
+    - ***Roe*** Scheme
   
 - <font color = 'blue'>**Diff_Cons_Common.m**</font>
   
-- Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, *i.e.* $ \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-} $.
-  
+- Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, *i.e.* 
+
+$$
+\mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-}
+$$
+
   - **Shock Capturing Methods** *(Optional)*
     - **(TVD) *Total Variation Diminishing*** Scheme with **van Leer Limiter**
     - **(NND, *H. X. Zhang*) *Non-oscillatory, Non-free-parameters Dissipative Difference*** Scheme
@@ -63,8 +66,8 @@ All the developed *MATLAB* codes are saved under the ***Codes*** folder.
   - ***Note:*** All the **upwind schemes** used in this program had been converted into the conservative form.
   
 - <font color = 'blue'>**Cal_Minmod.m**</font>
-  - **Cal. minmod(a, b)**
-  - *Sign Definition*  
+  - **Calculate minmod(a, b)**
+  - *Sign Definition*
 
   $$
   \operatorname{minmod}(a,b) = \frac{1}{2}\left[\operatorname{sgn}(a) + \operatorname{sgn}(b)\right]\cdot\operatorname{min}\left(\left|a\right|, \left|b\right|\right)
@@ -138,4 +141,4 @@ Bilibili Space: https://space.bilibili.com/167343763
 
 ------
 
-<font size = 2.5>This project is protected by the MIT license. Please obey the open source rules.</font>
+<font size = 2.5>*This project is protected by the MIT license. Please obey the open source rules.*</font>
