@@ -35,7 +35,7 @@ All the *MATLAB* codes are saved under the ***Codes*** folder.
   - ***Roe*** Scheme
   
 - <font color = 'blue'>**Diff_Cons_Common.m**</font>
-  - Calculate the  flux difference $$ \frac{\partial \mathbf{F}}{\partial x} $$ from positive flux $$ \frac{\partial \mathbf{F}^{+}}{\partial x} $$ and negative flux  $$ \frac{\partial \mathbf{F}^{-}}{\partial x} $$ with conservation form through **FVS** or **FDS**, *i.e.* '$$ \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-} $$'
+  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, *i.e.* $ \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-} $
   - **Shock Capturing Methods** *(Optional)*
     - **(TVD) *Total Variation Diminishing*** Scheme with **van Leer Limiter**
     - **(NND, *H. X. Zhang*) *Non-oscillatory, Non-free-parameters Dissipative Difference*** Scheme
@@ -55,7 +55,7 @@ $$ {'}
 \operatorname{minmod}(a,b) = \frac{1}{2}\left[\operatorname{sgn}(a) + \operatorname{sgn}(b)\right]\cdot\operatorname{min}\left(\left|a\right|, \left|b\right|\right)
 $$ {'}
 
-​		where '$ a $', '$ b $' is 1-Dimensional array with same length.
+​		where $ a $, $ b $ is 1-Dimensional array with same length.
 
 - <font color = 'blue'>**Plot_Props.m**</font>
   - Plot the properties of fluid with preset and uniform axis coordinates
