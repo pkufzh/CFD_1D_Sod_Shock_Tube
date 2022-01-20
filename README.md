@@ -35,10 +35,10 @@ All the developed *MATLAB* codes are saved under the ***Codes*** folder.
   - ***Roe*** Scheme
   
 - <font color = 'blue'>**Diff_Cons_Common.m**</font>
-  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, i.e. 
+  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, i.e.   
 
 $$
-\mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-}
+\mathbf{F}_{j+\frac{1}{2}}=\mathbf{F}_{j+\frac{1}{2}L}^{+}+\mathbf{F}_{j + \frac{1}{2}R}^{-}
 $$
 
   - **Shock Capturing Methods** *(Optional)*
@@ -54,7 +54,7 @@ $$
   
 - <font color = 'blue'>**Cal_Minmod.m**</font>
   - **Cal. minmod(a, b)**
-  - *Sign Definition*
+  - *Sign Definition*  
 
 $$
 \operatorname{minmod}(a,b) = \frac{1}{2}\left[\operatorname{sgn}(a) + \operatorname{sgn}(b)\right]\cdot\operatorname{min}\left(\left|a\right|, \left|b\right|\right)
@@ -108,7 +108,7 @@ $$
 19. Jiang, G. S., \& Shu, C. W. (1996). Efficient implementation of weighted ENO schemes. *Journal of computational physics*, 126(1), 202-228.
 20. 刘儒勋, \& 舒其望. (2003). 计算流体力学的若干新方法. *科学出版社*.
 21. 吴望一,蔡庆东.(2000).时间空间均为二阶的新型NND差分格式. *应用数学和力学* (06),561-572.
-22. Liu, X. D., Osher, S., \& Chan, T. (1994). Weighted essentially non-oscillatory schemes. *Journal of computational physics*, 115(1), 200-212.
+22. Liu, X. D., Osher, S., \& Chan, T. (1994). Weighted essentially non-oscillatory schemes. *Journal of computational physics*, 115(1), 200-212.  
 
 ------
 
@@ -124,9 +124,8 @@ Github Page: https://github.com/pkufzh
 
 ResearchGate: https://www.researchgate.net/profile/Zhenghao-Feng
 
-Bilibili Space: https://space.bilibili.com/167343763  
+Bilibili Space: https://space.bilibili.com/167343763
 
+------
 
-
-
-<center><font size = 2.5>This project is protected by the MIT license. Please obey the open source rules.</font></center>
+<font size = 2.5>This project is protected by the MIT license. Please obey the open source rules.</font>
