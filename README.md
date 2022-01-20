@@ -1,3 +1,4 @@
+# Table of Content
 
 - [Numerical Simulation of 1-D Sod Shock Tube](#numerical-simulation-of-1-d-sod-shock-tube)
   - [Information](#information)
@@ -9,7 +10,7 @@
 
 # Numerical Simulation of 1-D Sod Shock Tube
 
-**The MATLAB codes for the realization of the numerical simulation of 1-D Sod Shock Tube**
+**The MATLAB codes for the realization of the numerical simulation of 1-D Sod Shock Tube (v1.0)**
 
 ## Information
 
@@ -18,6 +19,8 @@
 ***Course:*** Fundamentals of Computational Fluid Dynamics (CFD)
 
 ***Submit:*** 2021/12/28
+
+***Version:*** v1.0
 
 ## Description
 
@@ -40,12 +43,14 @@ All the developed *MATLAB* codes are saved under the ***Codes*** folder.
     - **Liou-Steffen (Advection Upstream Splitting Method, AUSM)**
   
 - <font color = 'blue'>**Flux_Diff_Split_Common.m**</font>
+  
   - **Flux Difference Splitting (FDS)** with different methods *(Optional)*
   - ***Roe*** Scheme
   
 - <font color = 'blue'>**Diff_Cons_Common.m**</font>
-  - Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, that is $ \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-} $.
-
+  
+- Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, *i.e.* $ \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-} $.
+  
   - **Shock Capturing Methods** *(Optional)*
     - **(TVD) *Total Variation Diminishing*** Scheme with **van Leer Limiter**
     - **(NND, *H. X. Zhang*) *Non-oscillatory, Non-free-parameters Dissipative Difference*** Scheme
@@ -55,7 +60,7 @@ All the developed *MATLAB* codes are saved under the ***Codes*** folder.
     - **2 order** (3 points)
     - **3 order** (4 points with *bias*)
     - **5 order** (6 points with *bias*)
-  - *Note:* All the **upwind schemes** used in this program had been converted into the conservative form.
+  - ***Note:*** All the **upwind schemes** used in this program had been converted into the conservative form.
   
 - <font color = 'blue'>**Cal_Minmod.m**</font>
   - **Cal. minmod(a, b)**
