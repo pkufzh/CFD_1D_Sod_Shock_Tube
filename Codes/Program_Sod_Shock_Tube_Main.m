@@ -65,7 +65,7 @@ max_tot_time = max_step * dt;
 
 %% Pre-processing: I/O File Setting
 % Set the global I/O file folder path
-savefolder = ['New_Program_Sod_Shock_Tube', '_MaxTime_',num2str(max_tot_time, '%.3f')];
+savefolder = ['Program_Sod_Shock_Tube', '_MaxTime_',num2str(max_tot_time, '%.3f')];
 save_output_folder = ['.\', savefolder, '\'];
 mkdir(save_output_folder);
 
@@ -84,7 +84,7 @@ p_arr(xp_mid : end) =   0.1;
 % Specify the Flux Splitting Method
 % 1 - Flux Vector Splitting (FVS)
 % 2 - Flux Differnce Splitting (FDS)
-flag_flu_spl = 2;
+flag_flu_spl = 1;
 
     % Family of FVS methods
     % 1 - Steger-Warming (S-W)
@@ -107,7 +107,7 @@ flag_flu_spl = 2;
 % Avilable types
 % 1 - General Upwind & Compact Schemes (forward / backward)
 % 2 - Special Shock-Capturing Schemes
-flag_spa_typ = 2;
+flag_spa_typ = 1;
 
     % Global
     % [General Upwind & Compact Schemes (forward / backward)]
@@ -124,7 +124,7 @@ flag_spa_typ = 2;
     % 2 - NND - Non-oscillatory, Non-free-paremeters Dissipative Difference Scheme
     % 3 - WENO - Weighted Essentially Non-Oscillatory Method (e.g. 5 od WENO proposed by Jiang & Shu)
     % MUSCL - Monotone Upstream-Centered Schemes for Conservation Laws
-    flag_scs_typ = 3;
+    flag_scs_typ = 1;
 
 % Specify the Algorithm for temporal marching [OK]
 % Global
