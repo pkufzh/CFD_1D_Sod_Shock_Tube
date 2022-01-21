@@ -100,7 +100,7 @@ $$
 
 ## Reference
 
-1. Gogol (2021). Sod Shock Tube Problem Solver ([[Click to the Website](https://www.mathworks.com/matlabcentral/fileexchange/46311-sod-shock-tube-problem-solver)), *MATLAB Central File Exchange.* Retrieved December 28, 2021.
+1. Gogol (2021). Sod Shock Tube Problem Solver ([Click to the Website](https://www.mathworks.com/matlabcentral/fileexchange/46311-sod-shock-tube-problem-solver)), *MATLAB Central File Exchange.* Retrieved December 28, 2021.
 2. Steger, J. L., \& Warming, R. F. (1981). Flux vector splitting of the inviscid gasdynamic equations with application to finite-difference methods. *Journal of computational physics*, 40(2), 263-293.
 3. Van Leer, B. (1997). Flux-vector splitting for the Euler equation. In Upwind and high-resolution schemes (pp. 80-89). *Springer*, Berlin, Heidelberg.
 4. Liou, M. S., \& Steffen Jr, C. J. (1993). A new flux splitting scheme. *Journal of Computational physics*, 107(1), 23-39.
