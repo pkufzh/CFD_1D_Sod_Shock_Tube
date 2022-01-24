@@ -48,7 +48,7 @@ All the developed *MATLAB* codes are saved under the ***Codes*** folder.
   
 - <font color = 'blue'>**Diff_Cons_Common.m**</font>
   
-- Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with conservation form through **FVS** or **FDS**, *i.e.* 
+- Calculate the  flux difference $ \frac{\partial \mathbf{F}}{\partial x} $ from positive flux $ \frac{\partial \mathbf{F}^{+}}{\partial x} $ and negative flux  $ \frac{\partial \mathbf{F}^{-}}{\partial x} $ with the conservation form through **FVS** or **FDS**, *i.e.* 
 
 $$
 \mathbf{F}_{j + \frac{1}{2}} = \mathbf{F}_{j + \frac{1}{2} L}^{+} + \mathbf{F}_{j + \frac{1}{2} R}^{-}
